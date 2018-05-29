@@ -1,0 +1,16 @@
+.employee-col--img{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 575px){
+    .employee-col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+.employee-id{
+    margin-right: 10px;
+    color: #747373;
+}
